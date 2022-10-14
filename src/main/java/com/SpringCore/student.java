@@ -2,10 +2,10 @@ package com.SpringCore;
 
 
 public class student {
-	
+	//Data members
     private String stdName; 
     private String stdCourse;
-	
+	//getters and setters
 	@Override
 	public String toString() {
 		return "student [stdName=" + stdName + ", stdCourse=" + stdCourse + "]";
